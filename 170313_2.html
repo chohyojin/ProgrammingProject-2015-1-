@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<body>
+<style >
+	h1 + h2{
+		color: red;
+	}
+	h1 ~ h2 {
+		background-color: green;
+	}
+	input[type='text']{
+		background-color: pink;
+	}
+	input[type='email']{
+		background-color: orange;
+	}
+	input[type='radio']:checked {
+		height:50px;
+		width:50px;
+	}
+
+	input:focus {
+		background-color: red;
+	}
+	input:disabled {
+		background-color: gray;
+	}
+</style>
+	<h1> Form Example</h1>
+	<h2> Form Example</h2>
+	<h2> ------------</h2>
+	<p><span class="error">* required field.</span></p>
+	<form>
+		Name : <input type="text" name="name">
+		<span class="error">*</span><br><br>
+
+		E-mail : <input type="email" name="email">
+		<span class="error">*</span><br><br>
+
+		Website: <input type="text" name="Website" disabled><br><br>
+
+		Comment : <textarea name="comment" rows="5" cols="40"> </textarea><br><br>
+		Gender:
+		<input type="radio" name="Gender" value="Female">Female
+		<input type="radio" name="Gender" value="Male">Male
+		<br><br>
+		<input type="submit" name="submit" value="submit">
+	</form>
+	</body>
+	</html>
