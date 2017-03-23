@@ -1,0 +1,149 @@
+* {
+	margin : 0;
+	padding : 0;.
+}
+.top-nav {
+	float : right;
+}
+
+.top-nav li{
+	display: inline-block;
+	margin-left: 18px;
+	vertical-align: middle;
+	height: 64px;
+	text-align : center;
+	
+
+}
+a {
+	text-decoration: none;
+	color : #88AAA9;
+
+}
+.top-nav li a {
+	 font-size : 1rem;
+	 cursor : pointer;
+}
+.top-nav li a:hover{
+	color: white;
+	background : #BDB1AD;
+}
+
+.top-nav li:last-child a {
+	color : white;
+	background-color : #039be5 ;
+	width : 159px;
+	height : 59px;
+	font-size : 14px;
+	border : none;
+	border-radius : 5px;
+	padding : 5px 5px 5px 5px;
+}
+.brand {
+	
+
+    display: inline-block;
+	font-size: 2.1rem;
+	font-family : 'Abel', sans-serif;
+	float : center;
+	text-transform:uppercase;
+	color: #846C63;
+	left: 50px;
+
+}
+
+.TopMenu {
+ 	border-bottom : 2px solid #dddddd;
+	 height : 64px;
+	 line-height: 64px;
+	position : fixed;
+	background-color : #fff;
+	z-index: 998;
+	width : 100%;
+
+
+}
+
+.container:after{
+	width : 70%;
+	padding: 0 240px 0 240px;
+	content : " ";
+	margin: 0 auto;
+	max-width: 1280px;
+	margin-top: 85px;
+
+	}
+
+.section1 li {
+	list-style : none;
+
+}
+.section1 li a {
+	color : #846C63;
+	padding-top : 35px;
+	display : block;
+	font-size : 14.5px;
+	text-decoration: none;
+	text-transform:uppercase;
+}
+.box {
+	float : left;
+	border-radius:2px;
+	box-shadow: 0 2px 5px 0;
+	width : 120px;
+	height: 200px;
+	padding : 30px 30px 30px 30px;
+	margin : 20px 20px 20px 20px;
+
+	
+}
+.row {
+	float: left;
+	
+}
+.title {
+	display : block;
+
+	
+}
+.leftrow {
+	width : 66.6666%;
+	margin-left : 240px;
+	left: auto;
+	right: auto;
+	
+	
+}
+.rightrow {
+	width : 33.33333%;
+	margin-left : auto;
+	left: auto;
+	right: auto;
+	
+	
+}
+.title li {
+	list-style : none;
+
+}
+.title li a{
+	color : #846C63;
+	padding-top : 35px;
+	display : block;
+	font-size : 14.5px;
+	text-decoration: none;
+	
+}
+.title2 li a{
+	color : white;
+	background-color : green ;
+	width : 109px;
+	height : 29px;
+	font-size : 14px;
+	border : none;
+	border-radius : 5px;
+	padding : 5px 5px 5px 5px;
+	text-align : center;
+	line-height: 29px;
+
+}
