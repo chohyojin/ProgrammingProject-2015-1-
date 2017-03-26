@@ -10,6 +10,45 @@ a {
 
 }
 
+.search {
+	bottom : 45px;
+	right : 24px;
+	position : fixed;
+	padding-top:15px;
+	margin-bottom: 0;
+	z-index : 998;
+	display : block;
+	line-height : 55.5px;
+	width : 55px;
+	height : 55.5px;
+
+
+
+}
+.search a{
+	background-color : #86A8A8;
+	color : white;
+	overflow : hidden;
+	z-index: 1;
+	padding: 5px;
+	border-radius : 50%;
+	cursor:pointer;
+	vertical-align: middle;
+	position:relative;
+	display:inline-block;
+	text-align : center;
+
+
+}
+
+
+/*.search i:before {   
+	content : "\e65f";
+	font-size: 1.6rem;
+	line-height:55.5px;
+}
+검색 아이콘 뜨지 않음!! 
+*/ 
 .top-nav {
 	float : right;
 }
@@ -63,7 +102,7 @@ a {
 	position : fixed;
 	background-color: #fff;
 	z-index: 998;
-	width : 80%;
+	
 	top : 0;
 	left : 0;
 	right : 0;
@@ -72,7 +111,10 @@ a {
 
 
 }
-
+.Menu {
+	width : 70%;
+	margin-left : 220px;
+}
 
 .page {
 	background-color: #F6F4F1;
@@ -132,7 +174,7 @@ a {
 .card {
 	position : relative;
 	margin : 0.5rem 0 1rem 0;
-	
+	box-shadow : 0 2px 5px 0;
 	border-radius: 2px;
 }
 .card-image img{
@@ -146,6 +188,7 @@ a {
 	bottom:0;
 	display : block;
 	border-radius : 2px 2px 0 0 ;
+	cursor: pointer;
 
 }
 .card-content {
@@ -181,7 +224,7 @@ a {
 	width : 60%;
 	float:left;
 	padding : 0.5em;
-	height : 100%;
+	
 	
 }	
 
@@ -189,9 +232,16 @@ a {
 	width : 33.333333%;
 	float : right;
 	padding : 0.5em;
-	height : 100%;
+	
 }
-
+.tableTitle2 p {
+	color : #846C63;
+}
+.tableTitle2 p a {
+	padding : 20px;
+	color : white;
+	background-color :  #88AAA9;
+}
 .c3 {
 	width: 25%;
 	float : left;
@@ -214,7 +264,7 @@ a {
 footer {
 	padding-top : 20px;
 	width :100%;
-	background-color : rgba(189,177,173,0.1);
+	background-color : rgba(189,177,173,0.3);
 
 }
 .container {
@@ -236,7 +286,28 @@ footer {
 	font-size : 1.64rem;
 	line-height: 110%;
 }
+.footer-menu ul a {
+	color : #846C63;
+	font-size : 14px;
+	
+}
 .footer-menu ul li {
 	color: #88AAA9;
 	list-style: none;
+	font-size : 15px;
+	cursor : pointer;
+}
+
+.container-end {
+	height: 50px;
+	line-height: 50px;
+	color: rgba(225,255,255,0.8);
+	background-color: rgba(51,51,51,0.08);
+
+
+}
+.container2 {
+	width: 66%;
+	margin-left: auto;
+	margin-right: auto;
 }
